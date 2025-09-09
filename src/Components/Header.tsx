@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { type Dispatch, type SetStateAction } from 'react';
+import { useState, type Dispatch, type SetStateAction } from 'react';
+import React from 'react';
 
 interface HeaderProps {
   darkMode: boolean;
@@ -35,4 +35,5 @@ const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
     </header>
   );
 };
+
 export default Header;
