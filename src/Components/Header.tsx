@@ -1,5 +1,4 @@
-import React, { Dispatch, SetStateAction, useState } from "react";
-
+import { useEffect, type Dispatch, type SetStateAction } from 'react';
 
 interface HeaderProps {
 darkMode: boolean;
