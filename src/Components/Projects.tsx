@@ -15,7 +15,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => (
     aria-labelledby="projects-title"
   >
     <h2 id="projects-title" className="text-4xl font-bold mb-10 text-center text-gray-800 dark:text-gray-100">
-      Proyectos
+  Proyectos
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
       {[1, 2, 3].map((p) => (
@@ -25,7 +25,7 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => (
           className={`p-6 rounded-2xl shadow transition-colors duration-300 ${darkMode ? "bg-gray-700 text-gray-100" : "bg-gray-100 text-gray-800"}`}
           aria-labelledby={`project-title-${p}`}
         >
-          <h3 id={`project-title-${p}`} className="font-bold text-xl mb-2">
+          <h3 id={`project-title-${p}`} className="font-bold text-xl mb-2 text-gray-800 dark:text-gray-100">
             Proyecto {p}
           </h3>
           <p className="mb-4">Descripción breve del proyecto.</p>

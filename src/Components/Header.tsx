@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
       } relative`}
       aria-label="Encabezado principal"
     >
-      <h1 className="text-xl font-bold">Mi Portafolio</h1>
+<h1 className="text-xl font-bold text-gray-800 dark:text-gray-100">Mi Portafolio</h1>
       <button
         onClick={() => setOpen(!open)}
         className="md:hidden text-2xl focus:outline-none focus:ring-2 focus:ring-blue-400 rounded"

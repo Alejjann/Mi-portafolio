@@ -8,8 +8,8 @@ const Hero: React.FC = () => (
     className="p-12 text-center bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg shadow-lg"
     aria-labelledby="hero-title"
   >
-    <h2 id="hero-title" className="text-4xl font-bold mb-4">
-      ¡Hola! Soy [Tu Nombre]
+    <h2 id="hero-title" className="text-4xl font-bold mb-4 text-gray-800 dark:text-gray-100">
+        ¡Hola! Soy Alejandro  
     </h2>
     <p className="text-lg max-w-2xl mx-auto">
       Soy un desarrollador apasionado por crear aplicaciones web modernas, eficientes y con un diseño atractivo.

@@ -28,7 +28,7 @@ const Blog: React.FC<BlogProps> = ({ darkMode }) => (
     aria-labelledby="blog-title"
   >
     <h2 id="blog-title" className="text-4xl font-bold mb-8 text-gray-800 dark:text-gray-100">
-      Blog
+        Blog
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
       {articles.map((article, i) => (

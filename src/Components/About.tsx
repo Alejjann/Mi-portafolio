@@ -17,7 +17,7 @@ const About: React.FC = () => (
       Sobre mí
     </h2>
     <p className="max-w-2xl mx-auto text-lg text-gray-600">
-      Tengo experiencia en tecnologías como <span className="font-semibold text-blue-600">React</span>, <span className="font-semibold text-green-600">Node.js</span> y <span className="font-semibold text-cyan-600">Tailwind CSS</span>. Me encanta aprender nuevas herramientas y trabajar en proyectos que resuelvan problemas reales.
+       Soy desarrollador web con experiencia en <span className="font-semibold text-blue-600">HTML</span>, <span className="font-semibold text-green-600">CSS</span>, <span className="font-semibold text-yellow-600">JavaScript</span>, <span className="font-semibold text-purple-600">PHP</span> y <span className="font-semibold text-pink-600">Python</span>. Me apasiona crear soluciones digitales que impacten positivamente y disfruto enfrentar nuevos retos sobre infomática. Estoy entusiasmado por seguir aprendiendo, mejorar mis habilidades y cultivar nuevos conocimientos para aportar valor en cada proyecto. 
     </p>
   </motion.section>
 );
