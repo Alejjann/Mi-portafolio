@@ -14,9 +14,12 @@ const Projects: React.FC<ProjectsProps> = ({ darkMode }) => (
     className={`p-12 ${darkMode ? "bg-gray-800" : "bg-white"} rounded-lg shadow-lg`}
     aria-labelledby="projects-title"
   >
-    <h2 id="projects-title" className="text-4xl font-bold mb-10 text-center text-gray-800 dark:text-gray-100">
+    <h2
+  id="projects-title"
+  className="text-4xl font-bold mb-10 text-center text-blue-700 dark:text-blue-300"
+>
   Proyectos
-    </h2>
+</h2>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
       {[1, 2, 3].map((p) => (
         <motion.article

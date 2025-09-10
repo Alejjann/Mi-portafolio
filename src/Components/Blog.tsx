@@ -27,9 +27,12 @@ const Blog: React.FC<BlogProps> = ({ darkMode }) => (
     className={`p-8 md:p-12 text-center ${darkMode ? "bg-gray-900" : "bg-white"} rounded-lg shadow-lg`}
     aria-labelledby="blog-title"
   >
-    <h2 id="blog-title" className="text-4xl font-bold mb-8 text-gray-800 dark:text-gray-100">
-        Blog
-    </h2>
+    <h2
+  id="blog-title"
+  className="text-4xl font-bold mb-8 text-blue-700 dark:text-blue-300"
+>
+  Blog
+</h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
       {articles.map((article, i) => (
         <motion.article

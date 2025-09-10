@@ -14,10 +14,13 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => (
     className={`p-12 text-center rounded-lg shadow-lg ${darkMode ? "bg-gray-900" : "bg-gray-50"}`}
     aria-labelledby="contact-title"
   >
-    <h2 id="contact-title" className="text-4xl font-bold mb-6 text-gray-800 dark:text-gray-100">
+    <h2
+  id="contact-title"
+  className="text-4xl font-bold mb-6 text-blue-700 dark:text-blue-300"
+>
   Contacto
-    </h2>
-    <p className="mb-4 text-lg text-gray-600 dark:text-gray-300">
+</h2>
+<p className="mb-4 text-lg text-gray-800 dark:text-gray-200">
         Aquí tienes mi correo electrónico para que puedas escribirme directamente: 
     </p>
     <a
