@@ -11,16 +11,16 @@ const Contact: React.FC<ContactProps> = ({ darkMode }) => (
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }}
     viewport={{ once: true }}
-    className={`p-12 text-center rounded-lg shadow-lg ${darkMode ? "bg-gray-900" : "bg-gray-50"}`}
-    aria-labelledby="contact-title"
+   className={`p-12 rounded-lg shadow-lg text-center ${darkMode ? "bg-gray-800 text-gray-100" : "bg-gray-100 text-gray-800"}`}
+  aria-labelledby="blog-title"
   >
     <h2
-  id="contact-title"
-  className="text-4xl font-bold mb-6 text-blue-700 dark:text-blue-300"
+   id="about-title"
+  className={`text-4xl font-bold mb-4 ${darkMode ? "text-blue-300" : "text-blue-700"}`}
 >
   Contacto
 </h2>
-<p className="mb-4 text-lg text-gray-800 dark:text-gray-200">
+<p className="mb-4 text-lg ">
         Aquí tienes mi correo electrónico para que puedas escribirme directamente: 
     </p>
     <a

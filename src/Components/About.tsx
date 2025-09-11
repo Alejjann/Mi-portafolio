@@ -3,24 +3,20 @@ import { motion } from "framer-motion";
 
 const About: React.FC<{ darkMode: boolean }> = ({ darkMode }) => (
   <motion.section
-    id="sobre-mi"
-    initial={{ opacity: 0, x: -50 }}
-    whileInView={{ opacity: 1, x: 0 }}
-    transition={{ duration: 0.8 }}
-    viewport={{ once: true }}
-    className={`p-8 md:p-12 text-center rounded-lg shadow-lg ${
-  darkMode ? "bg-black-700 text-gray-200" : "bg-white text-gray-800"
-}`}
-    aria-labelledby="about-title"
+  id="sobre-mi"
+  initial={{ opacity: 0, x: -50 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+  className={`p-8 md:p-12 text-center rounded-lg shadow-lg ${darkMode ? "bg-gray-800 text-gray-100" : "bg-gray-100 text-gray-800"}`}
+  aria-labelledby="about-title"
   >
-    <h2
-      id="about-title"
-      className={`text-4xl font-bold mb-4 ${
-        darkMode ? "text-blue-300" : "text-blue-700"
-      }`}
-    >
-      Sobre mí
-    </h2>
+<h2
+  id="about-title"
+  className={`text-4xl font-bold mb-4 ${darkMode ? "text-blue-300" : "text-blue-700"}`}
+>
+  Sobre mí
+</h2>
     <p className="max-w-2xl mx-auto text-lg">
   Soy desarrollador web con experiencia en
   <span className="font-semibold text-blue-600 dark:text-blue-300"> HTML</span>,
